@@ -60,6 +60,7 @@ main{
   }
   .box {
     width: 90%;
+    margin-right: 0;
     margin-bottom: 20px;
     float:none;
   }
