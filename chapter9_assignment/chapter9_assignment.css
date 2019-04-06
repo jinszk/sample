@@ -54,18 +54,21 @@ main{
 }
 @media screen and (max-width:768px) {
   main {
-     width: 90%;
-     margin: 50px auto;
+    width: 90%;
+    margin: 50px auto;
   }
   .box{
-  float: none;
-  width: 100%;
-  margin-right: 0px;
-  margin-bottom: 20px;
-  position: relative;
-  border: 1px solid #eee;
-}
-  .box:last-child{
-  margin-bottom: 0;
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
   }
-}
+  .box:last-child{
+    margin-bottom: 0;
+  }
+  .title{
+    color: rgba( 0, 0, 0, 0.6);
+  }
+  .text{
+    color: rgba( 0, 0, 0, 0.6);
+  }}
